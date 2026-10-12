@@ -12,7 +12,10 @@ package-url = "https://github.com/PyMoDAQ/pymodaq_plugins_vernier"
 name = "pymodaq_plugins_vernier"
 description = "Instrument plugin for Vernier instruments"
 dependencies = [
-    "pymodaq>=4.1.0",
+    "pymodaq>=5.3.2",
+    "pymodaq_utils>=5.3.1",
+    "pymodaq_gui>=5.3.0",
+    "pymodaq_data>=5.3.0",
     "msl-loadlib",
 ]
 
