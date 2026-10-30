@@ -24,6 +24,8 @@ class DAQ_0DViewer_GoIO(DAQ_Viewer_base):
          hardware library.
          
     """
+
+    supported_platforms = ('win32',)  # the GoIO Windows DLL
     params = comon_parameters+[
         {'title': 'Device', 'name': 'device', 'type': 'list', 'value': devices[0],
          'limits': devices}
